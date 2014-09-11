@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Rachel Wilson. All rights reserved.
 //
 
+#import "RWSimpleView.h"
 #import "RWAppDelegate.h"
 
 @implementation RWAppDelegate
@@ -14,7 +15,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // create view
+    CGRect frame1 = CGRectMake(50, 50, 100, 100);
+    RWSimpleView* view1 = [[RWSimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view1];
+    
+    // creating view
+    CGRect frame2 = CGRectMake(20, 20, 50, 50);
+    RWSimpleView* view2 = [[RWSimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [view1 addSubview:view2];
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

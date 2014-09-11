@@ -19,6 +19,7 @@
 		FED1AFEE19C1295200C32F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED1AFD619C1295200C32F8B /* UIKit.framework */; };
 		FED1AFF619C1295200C32F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED1AFF419C1295200C32F8B /* InfoPlist.strings */; };
 		FED1AFF819C1295200C32F8B /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED1AFF719C1295200C32F8B /* ViewTestTests.m */; };
+		FEE1A52319C16A09009A14DF /* RWSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE1A52219C16A09009A14DF /* RWSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		FED1AFF319C1295200C32F8B /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		FED1AFF519C1295200C32F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FED1AFF719C1295200C32F8B /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		FEE1A52119C16A09009A14DF /* RWSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSimpleView.h; sourceTree = "<group>"; };
+		FEE1A52219C16A09009A14DF /* RWSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				FED1AFE119C1295200C32F8B /* RWAppDelegate.h */,
 				FED1AFE219C1295200C32F8B /* RWAppDelegate.m */,
+				FEE1A52119C16A09009A14DF /* RWSimpleView.h */,
+				FEE1A52219C16A09009A14DF /* RWSimpleView.m */,
 				FED1AFE419C1295200C32F8B /* Images.xcassets */,
 				FED1AFD919C1295200C32F8B /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED1AFDF19C1295200C32F8B /* main.m in Sources */,
+				FEE1A52319C16A09009A14DF /* RWSimpleView.m in Sources */,
 				FED1AFE319C1295200C32F8B /* RWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +446,7 @@
 				FED1AFFD19C1295200C32F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FED1AFFE19C1295200C32F8B /* Build configuration list for PBXNativeTarget "ViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +455,7 @@
 				FED1B00019C1295200C32F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
